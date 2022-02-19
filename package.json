@@ -1,0 +1,20 @@
+{
+  "name": "fitforlife",
+  "version": "1.0.0",
+  "description": "Everyone has to do some activities like Yoga or Excercise to build strength, flexibilty and endurance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./config/dev.env nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Abhishek Kadavergu",
+  "license": "ISC",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
